@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color:rgb(250, 249, 246);
+}
+
+header {
+    background-color:rgba(241, 210, 210, 0.353);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+header > img {
+    padding: 20px;
+    width: 10%;
+    background-color: rgba(241, 218, 210, 0.353);
+}
+
+header > nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+
+a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*.menu {
+    display: none;
+    justify-content: end;
+    margin-right: 20px;
+}*/
+
+/*.menu > ul {
+    list-style: none;
+}*/
+
+@media (max-width: 500px) {
+    /*header > nav {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }*/
+    header > img {
+        width: 18%;
+    }
+    .nav-list {
+        justify-content:space-between;
+    }
+}
+
+.main {
+    display: flex;
+    padding-top: 180px;
+    width: 100%;
+}
+
+span {
+    font-size:x-large;
+    font-weight: 700;
+}
+
+.barranco {
+    width: 35%;
+}
+
+#barranquismo {
+    margin: 20px;
+}
+
+.kite {
+    width: 35%;
+}
+
+#kitesurf {
+    padding: 20PX;
+
+}
+
+#parapente {
+    padding: 20px;
+}
+
+.pente {
+    width: 35%;
+}
+
+#escalada {
+    padding: 20px;
+}
+
+.escalation {
+    width: 35%;
+}
+
+
+p {
+    margin-left: 20px;
+}
+
+article {
+    display: flex;
+    justify-content:space-around;
+}
+
+footer {
+    /*position: fixed;*/
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-color:rgba(241, 210, 210, 0.353);
+}
+
+.facebook {
+    width: 10%;
+}
+
+.instagram {
+    width: 10%;
+}
+
+.twiter {
+    width: 10%;
+}
+
+.iconos {
+    background-color:rgba(241, 210, 210, 0.353);
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > p {
+    background-color:rgba(241, 210, 210, 0.353);
+}
+
+
+
+
+
